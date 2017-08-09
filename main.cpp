@@ -11,8 +11,5 @@ auto main() -> int
   const auto v3 = vector{1.0, 2.0, 3.0};
   const auto v4 = vector(-v1 + v2 / v3);
 
-  std::cout << v1 << '\n';
-  std::cout << v2 << '\n';
-  std::cout << v3 << '\n';
-  std::cout << v4 << '\n';
+  std::cout << vector{v1, v2, v3, v4} << '\n';
 }
